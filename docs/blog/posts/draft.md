@@ -1,8 +1,10 @@
 ---
-draft: true
+slug: test
 date:
   created: 2025-03-16
 ---
+
+<!-- 테스트용 블로그 글입니다. -->
 
 # 블로그 테스트
 
