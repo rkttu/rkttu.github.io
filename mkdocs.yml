@@ -58,7 +58,6 @@ plugins:
       archive_date_format: 'yyyy-MM-dd'
       pagination_per_page: 5
   - meta
-  - awesome-nav
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
