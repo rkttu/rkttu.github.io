@@ -56,9 +56,6 @@ plugins:
   - blog:
       blog_toc: true
       archive_date_format: 'yyyy-MM-dd'
-      categories_allowed:
-        - None
-        - C#
       pagination_per_page: 5
   - meta
   - awesome-nav
@@ -70,14 +67,6 @@ plugins:
   - social:
       cards_layout_options:
         font_family: Noto Sans KR
-  - redirects:
-      redirect_maps:
-        'index.md': 'blog/index.md'
-
-nav:
-  - 블로그:
-     - blog/index.md
-  - 소개: blog/author/rkttu.md
 
 hooks:
   - hooks/socialmedia.py
