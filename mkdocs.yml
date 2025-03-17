@@ -8,7 +8,6 @@ theme:
   language: ko
   logo: assets/rkttu.png
   features:
-    - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -62,6 +61,7 @@ plugins:
         - C#
       pagination_per_page: 5
   - meta
+  - awesome-nav
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
