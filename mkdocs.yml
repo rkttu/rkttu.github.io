@@ -67,6 +67,9 @@ plugins:
   - social:
       cards_layout_options:
         font_family: Noto Sans KR
+  - redirects:
+      redirect_maps:
+        'index.md': 'blog/index.md'
 
 hooks:
   - hooks/socialmedia.py
