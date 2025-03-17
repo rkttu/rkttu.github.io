@@ -72,6 +72,14 @@ mkdocs build
 
 빌드된 파일은 `site` 디렉토리에 생성됩니다.
 
+## 문제 해결
+
+`mkdocs-material`을 비롯한 패키지들이 이미 설치되어있는 경우 제거해야 할 경우가 있습니다. 이 때 다음과 같이 명령어를 실행하여 문제를 해결할 수 있습니다.
+
+```bash
+pip uninstall -r ./requirements.txt
+```
+
 ## 프로젝트 구조
 
 ```text
@@ -106,7 +114,6 @@ rkttu.github.io/
 
 - MkDocs Material 테마를 사용합니다: https://squidfunk.github.io/mkdocs-material/
 - 블로그에 새 포스트를 추가하려면 `docs/blog/posts/` 디렉토리에 마크다운 파일을 작성하세요
-- 폴더명 'overridese'는 'overrides'로 수정하는 것이 좋습니다
 
 ## 라이선스
 
