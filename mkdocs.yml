@@ -102,6 +102,12 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+nav:
+  - Blog:
+    - Posts: blog/index.md
+  - Medium: https://medium.com/rkttu
+  - About: blog/author/rkttu.md
+
 extra:
   consent:
     title: 쿠키 설정 안내
